@@ -10,13 +10,3 @@ nos_init "$@"
 
 # source common lib
 . ${engine_lib_dir}/java.sh
-
-# dynamically generate a Boxfile from a template,
-# and print to stdout
-
-cat <<-END
-env:
-#   JAVA_HOME: $(java_home)
-#   JAVA_OPTS: "-XX:+UseCompressedOops"
-  PORT: 8181
-END
