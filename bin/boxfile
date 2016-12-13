@@ -18,5 +18,5 @@ cat <<-END
 env:
 #   JAVA_HOME: $(java_home)
 #   JAVA_OPTS: "-XX:+UseCompressedOops"
-  PORT: 8080
+  PORT: 8181
 END
